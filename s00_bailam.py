@@ -34,5 +34,5 @@ def tongtienmuahang(gia_truoc_thue):
   if gia_truoc_thue==None:
     return(None)
   else:
-    return round(gia_truoc_thue*1.1)
+    return int(round(gia_truoc_thue*1.1))
 #endregion bailam
